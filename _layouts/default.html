@@ -12,8 +12,6 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
     {% feed_meta %}
-    <meta content='' name='description'>
-    <meta content='' name='author'>
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="{{ " /assets/css/core.css " | prepend: site.baseurl }}" />
     <!--[if lt IE 9]>
@@ -21,6 +19,7 @@
       <link rel="stylesheet" href="assets/css/lt-ie9.min.css">
     <![endif]-->
     <meta content='width=device-width, initial-scale=1, minimum-scale=1' name='viewport'>
+    {% seo %}
 </head>
 
 <body class="{{ page.body-class }}">
