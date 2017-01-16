@@ -195,7 +195,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 115)
 
 RUBY VERSION
    ruby 2.3.1p112
