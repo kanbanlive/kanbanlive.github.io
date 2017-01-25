@@ -1120,14 +1120,12 @@ body.contact header li#contact a {
   text-align: center !important;
 }
 
-blockquote {
-  ul {
-    margin-top: 1em;
+blockquote ul {
+  margin-top: 1em
+}
 
-    li {
-      text-align: left;
-    }
-  }
+blockquote ul li {
+  text-align: left
 }
 
 img.spectech-case-study {
