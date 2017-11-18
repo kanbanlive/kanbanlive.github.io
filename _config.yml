@@ -31,19 +31,12 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-permalink: /blog/:year/:month/:title/
 plugins:
 - jekyll-feed
-- jekyll-paginate-v2
+- jekyll-paginate
 - jekyll-sitemap
 - jekyll-seo-tag
 feed:
   path: atom.xml
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 5
+paginate_path: "/blog/page:num/"
