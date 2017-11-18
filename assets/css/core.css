@@ -446,6 +446,14 @@ text-decoration: none;
 .case-study h3 a:hover {
 color: #000;
 }
+.blog h3 a {
+font-weight: 300;
+color: #3bb331;
+text-decoration: none;
+}
+.blog h3 a:hover {
+color: #000;
+}
 .pricing-head {
 font-size: 22px;
 }
@@ -606,7 +614,8 @@ margin: 0 auto;
 width: 70%;
 }
 .newsletter .testimonial,
-.case-study .testimonial {
+.case-study .testimonial,
+.blog .testimonial {
 margin-top: 2em;
 background-color: #f9f9f9;
 border-top: 1px solid #f0f0f0;
@@ -616,7 +625,8 @@ margin-left: -4.166666666666%;
 padding: 70px 30px 30px 30px;
 }
 .newsletter .testimonial blockquote,
-.case-study .testimonial blockquote {
+.case-study .testimonial blockquote,
+.blog .testimonial blockquote {
 width: 100%;
 }
 .hyphen {
@@ -693,6 +703,12 @@ text-align: center;
 margin-bottom: 30px;
 }
 .case-study .btn {
+margin-top: 30px;
+}
+.blog img, .blog h3 {
+margin-bottom: 30px;
+}
+.blog .btn {
 margin-top: 30px;
 }
 .image-left, .image-right {
@@ -1146,4 +1162,22 @@ img.spectech-case-study {
   color: rgb(82, 89, 97);
   font-size: 19px;
   font-weight: normal;
+}
+
+.blog-link {
+  margin: 1em 0 0 0;
+}
+
+.blog-testimonials .testimonial {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.blog-testimonials blockquote {
+  color: rgb(82, 89, 97);
+  font-size: 19px;
+  font-weight: normal;
+}
+.pager a.next {
+  float: right;
 }

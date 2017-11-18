@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.2'
 
-gem 'github-pages', '115', group: :jekyll_plugins
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem "jekyll-paginate-v2"
+  gem "jekyll-feed"
+end
