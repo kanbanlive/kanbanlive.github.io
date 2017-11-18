@@ -107,8 +107,6 @@ GEM
     jekyll-optional-front-matter (0.2.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
-    jekyll-paginate-v2 (1.9.0)
-      jekyll (~> 3.0)
     jekyll-readme-index (0.1.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
@@ -217,8 +215,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed
-  jekyll-paginate-v2
+  jekyll-paginate
 
 RUBY VERSION
    ruby 2.4.2p198
