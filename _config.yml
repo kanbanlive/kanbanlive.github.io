@@ -31,12 +31,37 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+permalink: /blog/:year/:month/:title/
 plugins:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-seo-tag
+  - jekyll-assets
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-seo-tag
 feed:
   path: atom.xml
-paginate: 5
-paginate_path: "/blog/page:num/"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Jekyll Assets
+# - https://jekyll.github.io/jekyll-assets/
+assets:
+  sources:
+    - _assets/css
+    - _assets/img
+    - _assets/js
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]

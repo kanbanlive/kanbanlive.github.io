@@ -2,7 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.4.2'
 
+gem 'autoprefixer-rails'
+gem 'github-pages'
+gem 's3_website'
+gem 'uglifier'
+
 group :jekyll_plugins do
-  gem 'github-pages'
-  gem 'jekyll-paginate'
+  gem 'jekyll-assets'
+  gem 'jekyll-paginate-v2'
 end
