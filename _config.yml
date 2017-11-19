@@ -59,6 +59,8 @@ compress_html:
 # Jekyll Assets
 # - https://jekyll.github.io/jekyll-assets/
 assets:
+  compression: true
+  gzip: true
   sources:
     - _assets/css
     - _assets/img
