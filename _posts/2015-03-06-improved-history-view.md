@@ -8,6 +8,6 @@ We recently made some changes to the history view in Kanban Live which will make
 
 You may also click on the location link to navigate directly to the bin, panel or area. See the screenshot below:
 
-![Improved history view]({{ "/assets/img/improved-history-view.png" | absolute_url }})
+{% img improved-history-view.png alt:'Improved history view' %}
 
 There have also been a few performance improvements, which is especially noticeable when viewing scans of more than 200 bins e.g. area scans.
