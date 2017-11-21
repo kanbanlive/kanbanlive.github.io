@@ -26,7 +26,7 @@
     {% include layout/header.html %} {{ content }} {% include layout/footer.html %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     {% include google_analytics.html %}
-    <script src="/assets/js/general.min.js"></script>
-    <script src="/assets/js/plugins/jquery.meanmenu.2.0.min.js"></script>
+    <script src="{% asset_path general.min.js %}"></script>
+    <script src="{% asset_path plugins/jquery.meanmenu.2.0.min.js %}"></script>
 </body>
 </html>

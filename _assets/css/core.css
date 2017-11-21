@@ -586,7 +586,7 @@ list-style-type: none;
 .ticks li {
 padding: 0.25em 0 0.25em 1.75em;
 margin: 0;
-background: url('/assets/img/tick.png') 0 0.5em no-repeat;
+background: url('/images/tick.png') 0 0.5em no-repeat;
 }
 .lead aside.right {
 text-align: center;
@@ -607,7 +607,7 @@ margin-bottom: 1em;
 }
 .testimonial {
 padding: 70px 0 0 0;
-background: url('/assets/img/quotemark.png') 50% 30px no-repeat;
+background: url('/images/quotemark.png') 50% 30px no-repeat;
 }
 .testimonial blockquote {
 margin: 0 auto;
