@@ -20,6 +20,8 @@ exclude:
 - CNAME
 - Gemfile.lock
 - Gemfile
+- s3_website.yml
+- s3_website_staging.yml
 twitter:
   username: kanbanlive
 github:
