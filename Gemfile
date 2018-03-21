@@ -9,5 +9,8 @@ gem 'uglifier'
 
 group :jekyll_plugins do
   gem 'jekyll-assets'
+  gem 'jekyll-feed'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 end
