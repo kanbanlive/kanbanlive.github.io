@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  case-studies:
+    output: true
+    permalink: /:collection/:path
 name: Kanban Live Ltd
 email: chris@kanbanlive.com
 description: 'Kanban Live is a cloud-based, inventory management system which makes stock control more efficient and saves you money. It works with all types of storage system, but is ideally suited to the management of open bins, two bin systems and TwinBins.'
