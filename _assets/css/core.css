@@ -849,7 +849,7 @@ section.hero .lead.lead-contact h1, section.hero .lead.lead-contact p {
 width: 70%;
 }
 section.hero .lead.lead-contact {
-background-image: image-url('envelope.png');
+background-image: '/images/envelope.png';
 background-position: 90% 50%;
 background-repeat: no-repeat;
 }
@@ -1079,15 +1079,15 @@ only screen and (-o-min-device-pixel-ratio: 1.5/1),
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 .ticks li {
-background-image: image-url('tick@2x.png');
+background-image: '/images/tick@2x.png';
 background-size: 17px 14px;
 }
 .testimonial {
-background-image: image-url('quotemark@2x.png');
+background-image: '/images/quotemark@2x.png';
 background-size: 28px 19px;
 }
 section.hero .lead.lead-contact {
-background-image: image-url('envelope@2x.png');
+background-image: '/images/envelope@2x.png';
 background-size: 151px 149px;
 }
 }
