@@ -3,6 +3,8 @@ layout: post
 title: Kanban Live Realtime Demo At Paris Air Show
 date: 2015-06-17
 tags: []
+redirect_from:
+  - /post/121744514818/kanban-live-realtime-demo-at-paris-air-show/
 ---
 Kanban Live is featured at the Paris Air Show this week, with a demo of the latest update to our stock control system that removes the need to have personnel physically present on-site. The working prototype is on show in Hall 2B, stand G140 with aerospace supply chain experts Spectech France.
 

@@ -3,6 +3,8 @@ layout: post
 title: Improved history view
 date: 2015-03-06
 tags: []
+redirect_from:
+  - /post/112880562938/improved-history-view/
 ---
 We recently made some changes to the history view in Kanban Live which will make it easier to see what was scanned and when. Changes of status or quantity of a single bin are viewable inline, for panel and area scans clicking on the timestamp will show more details.
 

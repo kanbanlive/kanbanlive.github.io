@@ -3,6 +3,8 @@ layout: post
 title: Updated web site
 date: 2013-07-23
 tags: []
+redirect_from:
+  - /post/56271264203/updated-web-site/
 ---
 As you will have no doubt noticed, our new web site is now live! The new design is much cleaner and more modern, resulting in a site that is user friendly and easy to read.
 The site is responsive, which means that it will adapt to display on different size screens, the entry on Wikipedia states:

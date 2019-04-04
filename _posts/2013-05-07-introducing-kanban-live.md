@@ -3,6 +3,8 @@ layout: post
 title: Introducing Kanban Live
 date: 2013-05-07
 tags: []
+redirect_from:
+  - /post/49845892380/introducing-kanban-live/ 
 ---
 Hello and welcome to the first Kanban Live blog post. I thought it would be a good idea to write an introductory blog post explaining who we are, how we got here and what we aim to achieve.
 
